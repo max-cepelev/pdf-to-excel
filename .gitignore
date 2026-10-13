@@ -1,0 +1,20 @@
+# Настройки деплоя: адрес registry, вебхук Dokploy
+.env
+.env.*
+!.env.deploy.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Рабочие файлы для конвертации из командной строки (python -m app.converter)
+/pdf/
+/excel/
+
+# macOS, IDE
+.DS_Store
+.idea/
+
+# Фронтенд (node_modules, build, .svelte-kit) — в web/.gitignore
