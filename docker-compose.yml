@@ -1,0 +1,10 @@
+# локальный запуск того же образа, что уходит в Dokploy: http://localhost:8000
+services:
+  pdf-to-excel:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MAX_FILE_MB=50
+      - MAX_PAGES=500
+      - MAX_CONCURRENT=2

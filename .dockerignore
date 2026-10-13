@@ -1,0 +1,9 @@
+**/.DS_Store
+**/__pycache__
+web/node_modules
+web/build
+web/.svelte-kit
+.env*
+Makefile
+docker-compose.yml
+README.md
